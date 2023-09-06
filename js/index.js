@@ -16,7 +16,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
         if (nombre != "" && apellido != "" && fecha != "") {
             alert("Registrado Correctamente");
-            console.log(fecha);
             fetch(URL, {
                 method: "POST",
                 headers: {
